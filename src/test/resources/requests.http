@@ -1,0 +1,17 @@
+
+### get my_counter
+
+GET https://{{host}}/api/cache/my_counter
+
+### set my_counter (5)
+
+PUT https://{{host}}/api/cache/my_counter/5
+
+### set my_counter (11)
+
+PUT https://{{host}}/api/cache/my_counter/11
+
+### del my_counter
+
+DELETE https://{{host}}/api/cache/my_counter
+
